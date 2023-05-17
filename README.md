@@ -1,5 +1,5 @@
 # instagramDataScraper
-Download pycharm and setup virtual enviroment in your pycharm inside the folder Instagram_Hastag_DataScraper using Command in terminal below.
+Download pycharm and setup virtual enviroment in your pycharm inside the folder InstagramHashtagDataScraper using Command in terminal below.
 
 pip install virtualenv or can follow the below link to create virtual Environment
 
@@ -11,7 +11,9 @@ Before Running the spider run this command to create python path for all python 
 
 $env:PYTHONPATH = "Path of Directory;$env:PYTHONPATH"
 
-Path of Directory:Main Project Directory which includes all files such as login,requirement and parameter Change the backward slashes in the path to forward slashes from(\ to /)
+Path of Directory:Main Project Directory which includes all files such as login,requirement and parameter.
+
+Change the backward slashes in the path to forward slashes from(\ to /)
 
 To scrape data from hashtag you need a instagram login. Need to add your credentials in parameter.py file. Now Go to the scraperSkeleton(outer) directory using command in terminal mentined below 
 
