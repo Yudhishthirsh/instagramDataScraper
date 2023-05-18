@@ -3,12 +3,10 @@ import string
 import time
 from datetime import datetime
 #Instagram Credentials'
-#Instagram_username = "Enter_Instagram_Username"
-Instagram_username = "yudhishthirsharma11"
-#Instagram_password = "Enter_Instagram_Password"
-Instagram_password = "Qazxsw@321"
+Instagram_username = "Enter Instagram Username"
+Instagram_password = "Enter Instagram Password"
 #Hashtag from which need to scrape data
-Instagram_Hashtag = "rentinnoida"
+Instagram_Hashtag = "Enter The Hashtag"
 
 # Define the Random file name
 length = 5
