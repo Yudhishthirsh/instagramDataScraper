@@ -52,5 +52,5 @@ class QuotesSpider(scrapy.Spider):
             }
             Data.append(parsedData)
             df = pd.DataFrame(Data)
-            df.to_csv('hashtag1.csv', index=False)
+            df.to_csv(parameter.fileName, index=False)
             yield items
