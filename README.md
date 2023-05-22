@@ -4,25 +4,25 @@ This is the Instagram Scraping Framework which can be able to scrape publicly av
 
 Using this script following data can be scraped from the hashtag pages:
 
-  --Username
+  --Username- who have liked the post.
   
-  --Full Name
+  --Full Name- who have liked the post.
   
-  --Followers
+  --Followers 
   
   --Following
   
-  --Biography
+  --Biography- person who have liked the post
   
   --Private(Is account is private or not)
   
-  --Verified User or not
+  --Verified badge User or not
   
   --Number of Posts an user posted
   
-  --Liked
+  --Liked(Weather the post is liked by user or not)
   
-  --Comment
+  --Comment(Weather the person whi have liked the post have commented on same post or not)
   
   This script supports linux, windows OS.
   
@@ -43,13 +43,19 @@ The script description is mentioned below
        
 4)After reaching InstagramHashtagDataScraper directory run below command to create the Python path over all the directories and files in the project.
 
-    a) Command for Windows OS:
+a) Command for Windows OS:
 
             command = $env:PYTHONPATH = "Absolute Path of Directory;$env:PYTHONPATH" # Abslolute path of this "InstagramHashtagDataScraper" directory
           
-            While entering Absolute path of the directory ensure to change backword Slash (/) into forward slash(\) inside the path in case when running in windows machine.
-    
-    b) Command for linux OS:
+ While entering Absolute path of the directory ensure to change backward Slash (/) into forward slash(\) inside the path in case when running in windows                    machine.
+            
+To run this script in cmd.exe in windows os :
+            
+                  set PYTHONPATH=Absolute path of the directory;%PYTHONPATH%
+                 
+                  No need of changing backward slashes in (/) while using cmd.exe
+
+b) Command for linux OS:
     
             Command : export PYTHONPATH="Absolute Path of Directory" # Abslolute path of this "InstagramHashtagDataScraper" directory i your linux machine
           
@@ -57,11 +63,11 @@ The script description is mentioned below
 
 5)To scrape data from hashtag you need a instagram login. Need to add your credentials in parameter.py file
  
-    a)Instagram_username = "Enter_Instagram_Username"
+     a)Instagram_username = "Enter_Instagram_Username"
  
-    b)Instagram_password = "Enter_Instagram_Password"
+     b)Instagram_password = "Enter_Instagram_Password"
     
-    c)Instagram_Hashtag = "Enter_Hashtag" (for eg.rentinnoida) #Hashtag from which need to scrape data
+     c)Instagram_Hashtag = "Enter_Hashtag" (for eg.rentinnoida) #Hashtag from which need to scrape data
 
 6)Now Go to the scraperSkeleton(outer) directory using command in terminal mentined below
  
