@@ -1,4 +1,36 @@
 # instagramDataScraper
+This is the Instagram Scraping Framework which can be able to scrape publicly available data that is available on particular instagram hashtags pages.
+--
+
+Using this script following data can be scraped from the hashtag pages:
+
+  --Username
+  
+  --Full Name
+  
+  --Followers
+  
+  --Following
+  
+  --Biography
+  
+  --Private(Is account is private or not)
+  
+  --Verified User or not
+  
+  --Number of Posts an user posted
+  
+  --Liked
+  
+  --Comment
+  
+  This script supports linux, windows OS.
+  
+  
+  
+The script description is mentioned below
+--
+
 1)Open the project and go to the InstagramHashtagDataScraper in your windows terminal or on linux operating system.
 
 2)Install all the required python packages using below command:
